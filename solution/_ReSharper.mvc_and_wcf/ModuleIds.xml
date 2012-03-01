@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6" ModuleId="infrasrtucture" />
+  <Module PersistentId="4E86277F-68E3-41C8-9643-8F6802CF178C" ModuleId="domain" />
+  <Module PersistentId="56A611A1-07F9-4934-8B2A-E4E10BF207B9" ModuleId="tests" />
+</Modules>

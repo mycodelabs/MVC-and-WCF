@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domain", "..\domain\domain.csproj", "{4E86277F-68E3-41C8-9643-8F6802CF178C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infrasrtucture", "..\infrastructure\infrasrtucture.csproj", "{FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "..\tests\tests.csproj", "{56A611A1-07F9-4934-8B2A-E4E10BF207B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E86277F-68E3-41C8-9643-8F6802CF178C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E86277F-68E3-41C8-9643-8F6802CF178C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E86277F-68E3-41C8-9643-8F6802CF178C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E86277F-68E3-41C8-9643-8F6802CF178C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56A611A1-07F9-4934-8B2A-E4E10BF207B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A611A1-07F9-4934-8B2A-E4E10BF207B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A611A1-07F9-4934-8B2A-E4E10BF207B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A611A1-07F9-4934-8B2A-E4E10BF207B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

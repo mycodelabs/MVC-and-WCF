@@ -1,0 +1,5 @@
+C:\MVC and WCF\utilities\Utilities\bin\Debug\utilities.dll
+C:\MVC and WCF\utilities\Utilities\bin\Debug\utilities.pdb
+C:\MVC and WCF\utilities\Utilities\obj\Debug\ResolveAssemblyReference.cache
+C:\MVC and WCF\utilities\Utilities\obj\Debug\utilities.dll
+C:\MVC and WCF\utilities\Utilities\obj\Debug\utilities.pdb

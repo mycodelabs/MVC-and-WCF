@@ -1,0 +1,121 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlGateway.cs" caret="267" fromTop="10" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:meeting_repository_specs.cs" caret="0" fromTop="0" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_gateway_specs.cs" caret="0" fromTop="0" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:MeetingRepository.cs" caret="0" fromTop="0" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IXmlGateway.cs" caret="237" fromTop="10" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IProviderFactory.cs" caret="208" fromTop="12" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="200" fromTop="5" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="1044" fromTop="19" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="422" fromTop="10" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IProviderFactory.cs" caret="197" fromTop="8" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="1201" fromTop="29" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="1203" fromTop="29" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="629" fromTop="19" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="908" fromTop="16" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlGateway.cs" caret="347" fromTop="12" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlGateway.cs" caret="688" fromTop="24" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="1203" fromTop="20" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="1203" fromTop="19" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IXmlGateway.cs" caret="246" fromTop="10" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IProviderFactory.cs" caret="117" fromTop="5" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IProviderFactory.cs" caret="198" fromTop="10" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="200" fromTop="5" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="445" fromTop="11" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="1236" fromTop="27" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="1297" fromTop="23" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="833" fromTop="14" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="serializer" priority="1" />
+      <Item value="new" priority="3" />
+      <Item value="XmlSerializer" priority="0" />
+      <Item value="typeof" priority="1" />
+      <Item value="object" priority="0" />
+      <Item value="Entity`0" priority="0" />
+      <Item value="T`0" priority="0" />
+      <Item value="var" priority="1" />
+      <Item value="XmlSerializer`0" priority="0" />
+      <Item value="ctor" priority="0" />
+      <Item value="fileProvider" priority="0" />
+      <Item value="string" priority="0" />
+      <Item value="return" priority="2" />
+      <Item value="FileStream" priority="0" />
+      <Item value="fileName" priority="1" />
+      <Item value="Open" priority="0" />
+      <Item value="FileAccess`0" priority="0" />
+      <Item value="Read" priority="0" />
+      <Item value="using" priority="1" />
+      <Item value="this" priority="1" />
+      <Item value="T" priority="1" />
+      <Item value="stream" priority="0" />
+      <Item value="loadedObject" priority="0" />
+      <Item value="Meeting`0" priority="2" />
+      <Item value="public" priority="1" />
+      <Item value="abstract" priority="0" />
+      <Item value="class" priority="1" />
+      <Item value="when_asked_to_serialize_xml_concern`0" priority="0" />
+      <Item value="It`0" priority="0" />
+      <Item value="Because`0" priority="0" />
+      <Item value="sut" priority="0" />
+      <Item value="Behaves_like" priority="0" />
+      <Item value="Result`0" priority="0" />
+      <Item value="result" priority="1" />
+      <Item value="Establish`0" priority="0" />
+      <Item value="depends" priority="0" />
+      <Item value="IFileProvider`0" priority="0" />
+      <Item value="Meeting" priority="0" />
+      <Item value="the_file_provider" priority="0" />
+      <Item value="xml_file" priority="1" />
+      <Item value="x" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileAccess">
+      <Item value="Read" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:infrasrtucture.XmlProviderFactory`1">
+      <Item value="fileProvider" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:infrasrtucture.IFileProvider">
+      <Item value="GetStreamFromXml`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Serialization.XmlSerializer">
+      <Item value="Deserialize`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:infrasrtucture.contracts.IProviderFactory`1">
+      <Item value="CreateDocument`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:infrasrtucture.contracts.IProviderFactory">
+      <Item value="CreateDocument`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:domain.Meeting">
+      <Item value="ShouldNotBeNull`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:developwithpassion.specifications.core.IProvideDependencies">
+      <Item value="on`1" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
