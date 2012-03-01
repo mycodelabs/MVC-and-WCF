@@ -1,4 +1,6 @@
-﻿using developwithpassion.specifications.extensions;
+﻿using System.Collections.Generic;
+using System.IO;
+using developwithpassion.specifications.extensions;
 using developwithpassion.specifications.rhinomocks;
 using domain;
 using infrasrtucture;
@@ -22,16 +24,18 @@ namespace tests.infrastructure
         public class when_asked_to_deserialize_xml : when_asked_to_serialize_xml_concern
         {
             private static IFileProvider the_file_provider;
-            private static Meeting result;
+            private static FileStream stream;
+            private static MeetingsLibrary result;
 
             private Establish c = () =>
                                       {
-                                          result = new Meeting();
+                                          result = new MeetingsLibrary();
                                           the_file_provider = depends.on<IFileProvider>();
-                                          the_file_provider.setup(x => x.GetStreamFromXml(xml_file));
+                                          stream = new FileStream(xml_file, FileMode.Open, FileAccess.Read); 
+                                          the_file_provider.setup(x => x.GetStreamFromXml(xml_file)).Return(stream);
                                       };
 
-            private Because b = () => result = sut.CreateDocument<Meeting>();
+            private Because b = () => result = sut.CreateDocument<MeetingsLibrary>();
             private It should_return_object = () => result.ShouldNotBeNull();
         }
     }

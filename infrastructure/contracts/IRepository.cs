@@ -3,9 +3,9 @@ using domain;
 
 namespace infrasrtucture.contracts
 {
-    public interface IRepository<out T> 
+    public interface IRepository<T> 
         where T: Entity 
     {
-        Meeting GetAll();
+        IEnumerable<T> GetAll();
     }
 }

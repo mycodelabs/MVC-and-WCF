@@ -13,9 +13,13 @@ namespace infrasrtucture
             this.xmlGateway = xmlGateway;
         }
 
-        public Meeting GetAll()
+        public IEnumerable<Meeting> GetAll()
         {
-            return this.xmlGateway.SerializeDocument();
+           var meetingsLibrary = this.xmlGateway.SerializeDocument();
+            foreach (var meeting in meetingsLibrary.Meetings)
+            {
+                yield return meeting;
+            }
         }
     }
 }

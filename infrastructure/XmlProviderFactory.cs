@@ -1,4 +1,5 @@
-﻿using System.Configuration;
+﻿using System.Collections.Generic;
+using System.Configuration;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 using infrasrtucture.contracts;
@@ -24,9 +25,10 @@ namespace infrasrtucture
         public T CreateDocument<T>()
         {
             T loadedObject;
-            var serializer = new XmlSerializer(typeof (T));
+            var serializer = new XmlSerializer(typeof (List<T>));
             using( var stream = this.fileProvider.GetStreamFromXml(xmlFileName))
             {
+                stream.Position = 0;
                 loadedObject = (T) serializer.Deserialize(stream);
             }
             return loadedObject;

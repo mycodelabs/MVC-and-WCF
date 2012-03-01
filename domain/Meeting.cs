@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace domain
 {
+    [Serializable]
     public class Meeting : Entity
     {
         public Meeting()
@@ -9,17 +11,6 @@ namespace domain
             this.Events = new List<Event>();
         }
 
-        public string Id { get; set; }
-
-        public string Name { get; set; }
-
         public List<Event> Events { get; set; }
-    }
-
-    public class Event
-    {
-        public string EventName { get; set; }
-
-        public string StartTime { get; set; }
     }
 }

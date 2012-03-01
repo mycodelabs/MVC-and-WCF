@@ -8,6 +8,6 @@ namespace infrasrtucture.contracts
 {
     public interface IXmlGateway
     {
-        Meeting SerializeDocument();
+        MeetingsLibrary SerializeDocument();
     }
 }

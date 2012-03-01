@@ -20,14 +20,14 @@ namespace tests.infrastructure
         public class when_asked_to_retrieve_meetings_from_xml_file : meeting_repository_concern
         {
             private static IXmlGateway the_gateway;
-            private static Meeting results;
-
+            private static IEnumerable<Meeting> results;
+            private static MeetingsLibrary meetingsLibrary;
             private Establish c = () =>
                                       {
-                                          //results = new List<Meeting>(){ new Meeting() };
-                                          results = new Meeting();
+                                          results = new List<Meeting>();
+                                          meetingsLibrary = new MeetingsLibrary();
                                           the_gateway = depends.on<IXmlGateway>();
-                                          the_gateway.setup(x => x.SerializeDocument()).Return(results);
+                                          the_gateway.setup(x => x.SerializeDocument()).Return(meetingsLibrary);
                                       };
 
             Because b = () => results = sut.GetAll();

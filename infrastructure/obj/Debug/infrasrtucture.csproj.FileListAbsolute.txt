@@ -1,10 +1,3 @@
-C:\MVC and WCF\infrastructure\obj\Debug\ResolveAssemblyReference.cache
-C:\MVC and WCF\infrastructure\bin\Debug\infrasrtucture.dll
-C:\MVC and WCF\infrastructure\bin\Debug\infrasrtucture.pdb
-C:\MVC and WCF\infrastructure\bin\Debug\domain.dll
-C:\MVC and WCF\infrastructure\bin\Debug\domain.pdb
-C:\MVC and WCF\infrastructure\obj\Debug\infrasrtucture.dll
-C:\MVC and WCF\infrastructure\obj\Debug\infrasrtucture.pdb
 D:\Labs\MVC and WCF\infrastructure\bin\Debug\infrasrtucture.dll
 D:\Labs\MVC and WCF\infrastructure\bin\Debug\infrasrtucture.pdb
 D:\Labs\MVC and WCF\infrastructure\bin\Debug\domain.dll

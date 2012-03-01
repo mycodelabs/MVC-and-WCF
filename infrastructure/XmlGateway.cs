@@ -1,8 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using domain;
+﻿using domain;
 using infrasrtucture.contracts;
-using infrasrtucture.utilities;
 
 namespace infrasrtucture
 {
@@ -15,9 +12,9 @@ namespace infrasrtucture
             this.providerFactory = providerFactory;
         }
 
-        public Meeting SerializeDocument()
+        public MeetingsLibrary SerializeDocument()
         {
-            var document = this.providerFactory.CreateDocument<Meeting>();
+            var document = this.providerFactory.CreateDocument<MeetingsLibrary>();
             return document;
         }
     }

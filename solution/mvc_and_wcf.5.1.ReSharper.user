@@ -8,34 +8,53 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlGateway.cs" caret="267" fromTop="10" />
-      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:meeting_repository_specs.cs" caret="0" fromTop="0" />
-      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_gateway_specs.cs" caret="0" fromTop="0" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:MeetingRepository.cs" caret="0" fromTop="0" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IXmlGateway.cs" caret="237" fromTop="10" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IProviderFactory.cs" caret="208" fromTop="12" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="200" fromTop="5" />
-      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="1044" fromTop="19" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:meeting_repository_specs.cs" caret="1001" fromTop="18" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_gateway_specs.cs" caret="283" fromTop="0" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/f:App.config" caret="174" fromTop="5" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:FileProvider.cs" caret="240" fromTop="8" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:IFileProvider.cs" caret="145" fromTop="6" />
+      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Entity.cs" caret="103" fromTop="6" />
+      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Event.cs" caret="97" fromTop="7" />
+      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Meeting.cs" caret="169" fromTop="9" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IProviderFactory.cs" caret="216" fromTop="10" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IXmlGateway.cs" caret="246" fromTop="11" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="1061" fromTop="20" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlGateway.cs" caret="603" fromTop="23" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="1598" fromTop="23" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IRepository.cs" caret="197" fromTop="10" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:MeetingRepository.cs" caret="221" fromTop="8" />
     </RecentFiles>
     <RecentEdits>
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="422" fromTop="10" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IProviderFactory.cs" caret="197" fromTop="8" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="1201" fromTop="29" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="1203" fromTop="29" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="629" fromTop="19" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="908" fromTop="16" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlGateway.cs" caret="347" fromTop="12" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlGateway.cs" caret="688" fromTop="24" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="1203" fromTop="20" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="1203" fromTop="19" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IXmlGateway.cs" caret="246" fromTop="10" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IProviderFactory.cs" caret="117" fromTop="5" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IProviderFactory.cs" caret="198" fromTop="10" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="200" fromTop="5" />
-      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="445" fromTop="11" />
-      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="1236" fromTop="27" />
-      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="1297" fromTop="23" />
-      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="833" fromTop="14" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IXmlGateway.cs" caret="239" fromTop="10" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IProviderFactory.cs" caret="152" fromTop="5" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IProviderFactory.cs" caret="239" fromTop="10" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="498" fromTop="11" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlGateway.cs" caret="321" fromTop="16" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="248" fromTop="8" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="256" fromTop="1" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="550" fromTop="21" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlGateway.cs" caret="277" fromTop="11" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="637" fromTop="17" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:meeting_repository_specs.cs" caret="747" fromTop="11" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:meeting_repository_specs.cs" caret="1384" fromTop="24" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:meeting_repository_specs.cs" caret="1001" fromTop="18" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_gateway_specs.cs" caret="1961" fromTop="19" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="0" fromTop="0" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/f:App.config" caret="79" fromTop="3" />
+      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Meeting.cs" caret="287" fromTop="17" />
+      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Meeting.cs" caret="78" fromTop="5" />
+      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Entity.cs" caret="103" fromTop="6" />
+      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Event.cs" caret="97" fromTop="7" />
+      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Meeting.cs" caret="229" fromTop="12" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="948" fromTop="9" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="700" fromTop="8" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="1058" fromTop="20" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="671" fromTop="11" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="1582" fromTop="26" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_provider_factory_specs.cs" caret="1173" fromTop="20" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlGateway.cs" caret="443" fromTop="14" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:MeetingRepository.cs" caret="440" fromTop="17" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IRepository.cs" caret="176" fromTop="8" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -52,27 +71,27 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="serializer" priority="1" />
-      <Item value="new" priority="3" />
+      <Item value="new" priority="6" />
       <Item value="XmlSerializer" priority="0" />
       <Item value="typeof" priority="1" />
       <Item value="object" priority="0" />
-      <Item value="Entity`0" priority="0" />
+      <Item value="Entity`0" priority="1" />
       <Item value="T`0" priority="0" />
       <Item value="var" priority="1" />
       <Item value="XmlSerializer`0" priority="0" />
       <Item value="ctor" priority="0" />
-      <Item value="fileProvider" priority="0" />
+      <Item value="fileProvider" priority="2" />
       <Item value="string" priority="0" />
-      <Item value="return" priority="2" />
-      <Item value="FileStream" priority="0" />
+      <Item value="return" priority="4" />
+      <Item value="FileStream" priority="1" />
       <Item value="fileName" priority="1" />
-      <Item value="Open" priority="0" />
+      <Item value="Open" priority="1" />
       <Item value="FileAccess`0" priority="0" />
-      <Item value="Read" priority="0" />
+      <Item value="Read" priority="1" />
       <Item value="using" priority="1" />
-      <Item value="this" priority="1" />
+      <Item value="this" priority="3" />
       <Item value="T" priority="1" />
-      <Item value="stream" priority="0" />
+      <Item value="stream" priority="3" />
       <Item value="loadedObject" priority="0" />
       <Item value="Meeting`0" priority="2" />
       <Item value="public" priority="1" />
@@ -84,14 +103,22 @@
       <Item value="sut" priority="0" />
       <Item value="Behaves_like" priority="0" />
       <Item value="Result`0" priority="0" />
-      <Item value="result" priority="1" />
+      <Item value="result" priority="2" />
       <Item value="Establish`0" priority="0" />
       <Item value="depends" priority="0" />
       <Item value="IFileProvider`0" priority="0" />
-      <Item value="Meeting" priority="0" />
+      <Item value="Meeting" priority="1" />
       <Item value="the_file_provider" priority="0" />
-      <Item value="xml_file" priority="1" />
+      <Item value="xml_file" priority="2" />
       <Item value="x" priority="0" />
+      <Item value="static" priority="1" />
+      <Item value="readonly" priority="0" />
+      <Item value="xmlFileName" priority="0" />
+      <Item value="document" priority="0" />
+      <Item value="XDocument" priority="0" />
+      <Item value="results" priority="0" />
+      <Item value="List&lt;Event&gt;" priority="0" />
+      <Item value="FileStream`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.IO.FileAccess">
       <Item value="Read" priority="0" />
@@ -113,9 +140,16 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:domain.Meeting">
       <Item value="ShouldNotBeNull`0" priority="0" />
+      <Item value="Events" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:developwithpassion.specifications.core.IProvideDependencies">
       <Item value="on`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileStream">
+      <Item value="Position" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Machine.Fakes.IQueryOptions`1">
+      <Item value="Return`4" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
