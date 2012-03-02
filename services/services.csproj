@@ -34,11 +34,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Ninject">
-      <HintPath>..\solution\packages\Ninject.2.2.1.4\lib\net40-Full\Ninject.dll</HintPath>
-    </Reference>
+    <Reference Include="Ninject, Version=2.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL" />
     <Reference Include="Ninject.Extensions.Wcf">
-      <HintPath>..\solution\packages\Ninject.Extensions.Wcf.2.2.0.4\lib\net40-Full\Ninject.Extensions.Wcf.dll</HintPath>
+      <HintPath>..\packages\Ninject.Extensions.Wcf.2.2.0.4\lib\net40-Full\Ninject.Extensions.Wcf.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -87,6 +85,14 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\common\common.csproj">
+      <Project>{6B78C557-DDF5-44AF-88EB-3AECB20A77FE}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\contracts\contracts.csproj">
+      <Project>{FD1E7232-965C-40FF-B909-EFC0AE9017BD}</Project>
+      <Name>contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\domain\domain.csproj">
       <Project>{4E86277F-68E3-41C8-9643-8F6802CF178C}</Project>
       <Name>domain</Name>
@@ -94,14 +100,6 @@
     <ProjectReference Include="..\infrastructure\infrasrtucture.csproj">
       <Project>{FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6}</Project>
       <Name>infrasrtucture</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\solution\common\common.csproj">
-      <Project>{6B78C557-DDF5-44AF-88EB-3AECB20A77FE}</Project>
-      <Name>common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\solution\contracts\contracts.csproj">
-      <Project>{FD1E7232-965C-40FF-B909-EFC0AE9017BD}</Project>
-      <Name>contracts</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -9,58 +9,35 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/d:datamodel/f:MeetingData.cs" caret="90" fromTop="4" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:MeetingRepository.cs" caret="179" fromTop="7" />
-      <File id="FD1E7232-965C-40FF-B909-EFC0AE9017BD/f:IMeetingRepository.cs" caret="135" fromTop="8" />
-      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:services/f:meetings_service_specs.cs" caret="354" fromTop="12" />
-      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:Web.config" caret="737" fromTop="17" />
-      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:Global.asax.cs" caret="70" fromTop="3" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IProviderFactory.cs" caret="143" fromTop="6" />
-      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:xml_gateway_specs.cs" caret="549" fromTop="7" />
-      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:MeetingsService.svc" caret="174" fromTop="0" />
-      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:MeetingsService.svc.cs" caret="835" fromTop="20" />
-      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/d:mappers/f:MeetingDataContractMapper.cs" caret="132" fromTop="5" />
-      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Meeting.cs" caret="91" fromTop="5" />
-      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Event.cs" caret="55" fromTop="4" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="546" fromTop="11" />
-      <File id="D45867AA-541E-4D00-8EFD-7CF404E95498/f:app.config" caret="624" fromTop="12" />
-      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Meetings.cs" caret="554" fromTop="19" />
-      <File id="D45867AA-541E-4D00-8EFD-7CF404E95498/d:Service References/d:meetingsservice/f:Reference.cs" caret="898" fromTop="7" />
-      <File id="D45867AA-541E-4D00-8EFD-7CF404E95498/d:Service References/d:meetingsservice/f:clienttasks.meetingsservice.MeetingData1.datasource" caret="0" fromTop="0" />
-      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:infrastructure/f:meeting_repository_specs.cs" caret="531" fromTop="16" />
-      <File id="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD/d:clienttasks/f:client_meeting_tasks.cs" caret="1334" fromTop="10" />
-      <File id="D45867AA-541E-4D00-8EFD-7CF404E95498/d:mappers/d:contracts/f:IMeetingsPageViewModelMapper.cs" caret="285" fromTop="9" />
-      <File id="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD/d:controllers/f:home_controller_specs.cs" caret="587" fromTop="15" />
-      <File id="D45867AA-541E-4D00-8EFD-7CF404E95498/d:mappers/f:MeetingsPageViewModelMapper.cs" caret="308" fromTop="9" />
-      <File id="00CCDFCD-DE98-4F34-9EC4-16A2D676357C/d:Views/d:Home/f:Index.aspx" caret="177" fromTop="4" />
-      <File id="D45867AA-541E-4D00-8EFD-7CF404E95498/f:MeetingTasks.cs" caret="683" fromTop="16" />
-      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:ContainerInject.cs" caret="663" fromTop="19" />
-      <File id="12D71FE3-B912-47BF-BDBA-2BE2028B607F/f:Class1.cs" caret="160" fromTop="11" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:FileProvider.cs" caret="0" fromTop="0" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="0" fromTop="0" />
+      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/d:contracts/f:IFileProvider.cs" caret="165" fromTop="8" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:Web.config" caret="344" fromTop="10" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/d:datamodel/f:MeetingData.cs" caret="57" fromTop="2" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/d:mappers/d:contracts/f:IMeetingDataContractMapper.cs" caret="50" fromTop="2" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/d:mappers/f:MeetingDataContractMapper.cs" caret="516" fromTop="16" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:ContainerInject.cs" caret="173" fromTop="7" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:Global.asax.cs" caret="359" fromTop="15" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:IMeetingsService.cs" caret="63" fromTop="2" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:MeetingsService.svc.cs" caret="222" fromTop="9" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:services/f:meetings_service_specs.cs" caret="313" fromTop="11" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:Global.asax" caret="89" fromTop="1" />
     </RecentFiles>
     <RecentEdits>
-      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/d:mappers/f:MeetingDataContractMapper.cs" caret="475" fromTop="13" />
-      <File id="FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6/f:XmlProviderFactory.cs" caret="786" fromTop="19" />
-      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Meetings.cs" caret="375" fromTop="16" />
-      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Meetings.cs" caret="196" fromTop="8" />
-      <File id="4E86277F-68E3-41C8-9643-8F6802CF178C/f:Meetings.cs" caret="556" fromTop="19" />
-      <File id="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD/d:clienttasks/f:client_meeting_tasks.cs" caret="515" fromTop="9" />
-      <File id="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD/d:clienttasks/f:client_meeting_tasks.cs" caret="941" fromTop="16" />
-      <File id="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD/d:clienttasks/f:client_meeting_tasks.cs" caret="2849" fromTop="26" />
-      <File id="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD/d:clienttasks/f:client_meeting_tasks.cs" caret="76" fromTop="0" />
-      <File id="D45867AA-541E-4D00-8EFD-7CF404E95498/d:mappers/f:MeetingsPageViewModelMapper.cs" caret="517" fromTop="14" />
-      <File id="D45867AA-541E-4D00-8EFD-7CF404E95498/f:MeetingTasks.cs" caret="420" fromTop="12" />
-      <File id="D45867AA-541E-4D00-8EFD-7CF404E95498/f:MeetingTasks.cs" caret="844" fromTop="21" />
-      <File id="D45867AA-541E-4D00-8EFD-7CF404E95498/f:MeetingTasks.cs" caret="0" fromTop="0" />
-      <File id="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD/d:clienttasks/f:client_meeting_tasks.cs" caret="2521" fromTop="22" />
-      <File id="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD/d:clienttasks/f:client_meeting_tasks.cs" caret="2767" fromTop="25" />
-      <File id="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD/d:clienttasks/f:client_meeting_tasks.cs" caret="2052" fromTop="17" />
-      <File id="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD/d:clienttasks/f:client_meeting_tasks.cs" caret="1310" fromTop="16" />
-      <File id="D45867AA-541E-4D00-8EFD-7CF404E95498/d:mappers/f:MeetingsPageViewModelMapper.cs" caret="0" fromTop="0" />
-      <File id="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD/d:controllers/f:home_controller_specs.cs" caret="352" fromTop="8" />
-      <File id="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD/d:controllers/f:home_controller_specs.cs" caret="631" fromTop="17" />
-      <File id="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD/d:controllers/f:home_controller_specs.cs" caret="587" fromTop="15" />
-      <File id="D45867AA-541E-4D00-8EFD-7CF404E95498/d:mappers/f:MeetingsPageViewModelMapper.cs" caret="691" fromTop="9" />
-      <File id="00CCDFCD-DE98-4F34-9EC4-16A2D676357C/d:Views/d:Home/f:Index.aspx" caret="177" fromTop="4" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:ContainerInject.cs" caret="370" fromTop="14" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/d:mappers/f:MeetingDataContractMapper.cs" caret="132" fromTop="3" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/d:datamodel/f:MeetingData.cs" caret="57" fromTop="2" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/d:mappers/f:MeetingDataContractMapper.cs" caret="221" fromTop="8" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:MeetingsService.svc.cs" caret="332" fromTop="12" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:MeetingsService.svc.cs" caret="165" fromTop="7" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:IMeetingsService.cs" caret="63" fromTop="2" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/d:mappers/d:contracts/f:IMeetingDataContractMapper.cs" caret="50" fromTop="2" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:ContainerInject.cs" caret="173" fromTop="7" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:Global.asax.cs" caret="103" fromTop="5" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:services/f:meetings_service_specs.cs" caret="477" fromTop="16" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:services/f:meetings_service_specs.cs" caret="998" fromTop="30" />
+      <File id="56A611A1-07F9-4934-8B2A-E4E10BF207B9/d:services/f:meetings_service_specs.cs" caret="203" fromTop="5" />
+      <File id="94D1E113-21DE-438F-92B3-78186B623FA7/f:Global.asax" caret="0" fromTop="0" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -77,30 +54,30 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="serializer" priority="1" />
-      <Item value="new" priority="33" />
+      <Item value="new" priority="38" />
       <Item value="XmlSerializer" priority="0" />
       <Item value="typeof" priority="1" />
       <Item value="object" priority="0" />
       <Item value="Entity`0" priority="1" />
       <Item value="T`0" priority="0" />
-      <Item value="var" priority="6" />
+      <Item value="var" priority="7" />
       <Item value="XmlSerializer`0" priority="0" />
-      <Item value="ctor" priority="6" />
+      <Item value="ctor" priority="7" />
       <Item value="fileProvider" priority="2" />
-      <Item value="string" priority="0" />
-      <Item value="return" priority="14" />
+      <Item value="string" priority="2" />
+      <Item value="return" priority="16" />
       <Item value="FileStream" priority="1" />
       <Item value="fileName" priority="1" />
       <Item value="Open" priority="1" />
       <Item value="FileAccess`0" priority="0" />
       <Item value="Read" priority="1" />
-      <Item value="using" priority="2" />
+      <Item value="using" priority="3" />
       <Item value="this" priority="13" />
       <Item value="T" priority="1" />
       <Item value="stream" priority="3" />
       <Item value="loadedObject" priority="0" />
       <Item value="Meeting`0" priority="14" />
-      <Item value="public" priority="12" />
+      <Item value="public" priority="13" />
       <Item value="abstract" priority="3" />
       <Item value="class" priority="7" />
       <Item value="when_asked_to_serialize_xml_concern`0" priority="0" />
@@ -135,7 +112,7 @@
       <Item value="private" priority="0" />
       <Item value="MeetingsLibrary" priority="0" />
       <Item value="meetings_service_specs`0" priority="0" />
-      <Item value="MeetingsService`0" priority="1" />
+      <Item value="MeetingsService`0" priority="2" />
       <Item value="meetings_service_concern`0" priority="0" />
       <Item value="the_meetings_repository" priority="1" />
       <Item value="the_meetings" priority="1" />
@@ -156,13 +133,13 @@
       <Item value="meetingDataContractMapper" priority="0" />
       <Item value="MeetingData" priority="3" />
       <Item value="IMeetingRepository`0" priority="0" />
-      <Item value="kernel" priority="4" />
+      <Item value="kernel" priority="5" />
       <Item value="StackOverflowException`0" priority="0" />
-      <Item value="IKernel`0" priority="0" />
+      <Item value="IKernel`0" priority="1" />
       <Item value="ContainerRegistration`0" priority="0" />
-      <Item value="Ninject" priority="0" />
-      <Item value="StandardKernel`0" priority="0" />
-      <Item value="Kernel" priority="2" />
+      <Item value="Ninject" priority="3" />
+      <Item value="StandardKernel`0" priority="1" />
+      <Item value="Kernel" priority="5" />
       <Item value="XmlGateway`0" priority="0" />
       <Item value="FileProvider`0" priority="0" />
       <Item value="IProviderFactory`0" priority="0" />
@@ -174,11 +151,11 @@
       <Item value="meeting_service" priority="0" />
       <Item value="the_meetings_page_viewmodel_mapper" priority="0" />
       <Item value="meetings_data" priority="2" />
-      <Item value="MeetingsPageViewModel`0" priority="1" />
+      <Item value="MeetingsPageViewModel`0" priority="2" />
       <Item value="the_page_view_model" priority="2" />
       <Item value="MeetingsPageViewModel" priority="1" />
-      <Item value="pageViewModel" priority="5" />
-      <Item value="List&lt;SelectListItem&gt;" priority="1" />
+      <Item value="pageViewModel" priority="7" />
+      <Item value="List&lt;SelectListItem&gt;" priority="2" />
       <Item value="SelectListItem" priority="2" />
       <Item value="Text" priority="0" />
       <Item value="Value" priority="0" />
@@ -186,9 +163,20 @@
       <Item value="meetingsService" priority="0" />
       <Item value="Initialize`0" priority="0" />
       <Item value="meetingTasks" priority="0" />
-      <Item value="ActionResult`0" priority="0" />
-      <Item value="View`0" priority="0" />
+      <Item value="ActionResult`0" priority="1" />
+      <Item value="View`0" priority="1" />
       <Item value="IMeetingTasks`0" priority="0" />
+      <Item value="IMeetingsPageViewModelMapper`0" priority="0" />
+      <Item value="MeetingsServiceClient`0" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="IMeetingsService`0" priority="0" />
+      <Item value="services" priority="5" />
+      <Item value="Meetings" priority="0" />
+      <Item value="formViewModel" priority="0" />
+      <Item value="GetHashCode`0" priority="0" />
+      <Item value="prop" priority="0" />
+      <Item value="HttpPost" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.IO.FileAccess">
       <Item value="Read" priority="0" />
@@ -256,10 +244,10 @@
       <Item value="MapFrom`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Ninject.IKernel">
-      <Item value="Bind`0" priority="4" />
+      <Item value="Bind`0" priority="7" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Ninject.Syntax.IBindingToSyntax`1">
-      <Item value="To`0" priority="4" />
+      <Item value="To`0" priority="6" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:clienttasks.meetingsservice.IMeetingsService">
       <Item value="GetAllMeetings`0" priority="3" />

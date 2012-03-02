@@ -69,6 +69,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\common\common.csproj">
+      <Project>{6B78C557-DDF5-44AF-88EB-3AECB20A77FE}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\contracts\contracts.csproj">
+      <Project>{FD1E7232-965C-40FF-B909-EFC0AE9017BD}</Project>
+      <Name>contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\infrastructure\infrasrtucture.csproj">
       <Project>{FDA17FA3-A9AE-4AAC-AE29-A964A6644CF6}</Project>
       <Name>infrasrtucture</Name>
@@ -80,14 +88,6 @@
     <ProjectReference Include="..\services\services.csproj">
       <Project>{94D1E113-21DE-438F-92B3-78186B623FA7}</Project>
       <Name>services</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\solution\common\common.csproj">
-      <Project>{6B78C557-DDF5-44AF-88EB-3AECB20A77FE}</Project>
-      <Name>common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\solution\contracts\contracts.csproj">
-      <Project>{FD1E7232-965C-40FF-B909-EFC0AE9017BD}</Project>
-      <Name>contracts</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

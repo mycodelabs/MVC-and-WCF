@@ -3,12 +3,9 @@
   <Module PersistentId="4E86277F-68E3-41C8-9643-8F6802CF178C" ModuleId="domain" />
   <Module PersistentId="56A611A1-07F9-4934-8B2A-E4E10BF207B9" ModuleId="tests" />
   <Module PersistentId="94D1E113-21DE-438F-92B3-78186B623FA7" ModuleId="services" />
-  <Module PersistentId="6B78C557-DDF5-44AF-88EB-3AECB20A77FE" ModuleId="common" />
-  <Module PersistentId="12EE4793-AC1A-4270-9E0F-B238D8C1D4DE" ModuleId="meetings_service" />
-  <Module PersistentId="5612B851-1818-4A36-97E5-4CC0521EF9AF" ModuleId="ConsoleApplication1" />
-  <Module PersistentId="FD1E7232-965C-40FF-B909-EFC0AE9017BD" ModuleId="contracts" />
   <Module PersistentId="D45867AA-541E-4D00-8EFD-7CF404E95498" ModuleId="clienttasks" />
-  <Module PersistentId="00CCDFCD-DE98-4F34-9EC4-16A2D676357C" ModuleId="Presentation" />
+  <Module PersistentId="FD1E7232-965C-40FF-B909-EFC0AE9017BD" ModuleId="contracts" />
+  <Module PersistentId="6B78C557-DDF5-44AF-88EB-3AECB20A77FE" ModuleId="common" />
   <Module PersistentId="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD" ModuleId="client_tests" />
   <Module PersistentId="12D71FE3-B912-47BF-BDBA-2BE2028B607F" ModuleId="controllers" />
 </Modules>

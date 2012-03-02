@@ -1,0 +1,13 @@
+﻿@model controllers.Home.MeetingsPageViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+@using(Html.BeginForm())
+{
+    @Html.DropDownListFor(x => x.Meetings, Model.Meetings)
+    <input type="submit"  name="submit" value="Get Events" />
+} 
