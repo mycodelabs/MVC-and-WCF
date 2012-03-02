@@ -17,8 +17,8 @@
 		</Events>
 	</Meeting>
 	<Meeting>
-		<Id>1</Id>
-		<Name>Meeting 1</Name>
+		<Id>2</Id>
+		<Name>Meeting 2</Name>
 		<Events>
 			<Event>
 				<Id>1</Id>

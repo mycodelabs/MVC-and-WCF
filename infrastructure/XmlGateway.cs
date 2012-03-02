@@ -12,9 +12,9 @@ namespace infrasrtucture
             this.providerFactory = providerFactory;
         }
 
-        public MeetingsLibrary SerializeDocument()
+        public Meetings SerializeDocument()
         {
-            var document = this.providerFactory.CreateDocument<MeetingsLibrary>();
+            var document = this.providerFactory.CreateDocument<Meetings>();
             return document;
         }
     }

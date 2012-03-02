@@ -16,3 +16,15 @@ D:\Labs\MVC and WCF\tests\bin\Debug\developwithpassion.specifications.pdb
 D:\Labs\MVC and WCF\tests\bin\Debug\developwithpassion.specifications.rhinomocks.pdb
 D:\Labs\MVC and WCF\tests\obj\Debug\tests.dll
 D:\Labs\MVC and WCF\tests\obj\Debug\tests.pdb
+D:\Labs\MVC and WCF\tests\bin\Debug\common.dll
+D:\Labs\MVC and WCF\tests\bin\Debug\services.dll
+D:\Labs\MVC and WCF\tests\bin\Debug\services.pdb
+D:\Labs\MVC and WCF\tests\bin\Debug\common.pdb
+D:\Labs\MVC and WCF\tests\bin\Debug\contracts.dll
+D:\Labs\MVC and WCF\tests\bin\Debug\Ninject.dll
+D:\Labs\MVC and WCF\tests\bin\Debug\contracts.pdb
+D:\Labs\MVC and WCF\tests\bin\Debug\Ninject.pdb
+D:\Labs\MVC and WCF\tests\bin\Debug\Ninject.xml
+D:\Labs\MVC and WCF\tests\bin\Debug\Ninject.Extensions.Wcf.dll
+D:\Labs\MVC and WCF\tests\bin\Debug\Ninject.Extensions.Wcf.pdb
+D:\Labs\MVC and WCF\tests\bin\Debug\Ninject.Extensions.Wcf.xml

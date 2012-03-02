@@ -24,7 +24,6 @@ namespace tests.infrastructure
                                           
                                           the_meetings = new List<Meeting>();
                                           TheProvider = depends.on<IProviderFactory>();
-                                          TheProvider.setup(x => x.CreateDocument()).Return(the_document);
                                       };
 
             protected static IProviderFactory TheProvider;

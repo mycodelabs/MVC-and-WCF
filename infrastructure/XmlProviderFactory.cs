@@ -17,18 +17,12 @@ namespace infrasrtucture
             xmlFileName = ConfigurationManager.AppSettings["xmlFileName"];
         }
 
-        public XDocument CreateDocument()
-        {
-            return new XDocument();
-        }
-
         public T CreateDocument<T>()
         {
             T loadedObject;
-            var serializer = new XmlSerializer(typeof (List<T>));
+            var serializer = new XmlSerializer(typeof (T));
             using( var stream = this.fileProvider.GetStreamFromXml(xmlFileName))
             {
-                stream.Position = 0;
                 loadedObject = (T) serializer.Deserialize(stream);
             }
             return loadedObject;

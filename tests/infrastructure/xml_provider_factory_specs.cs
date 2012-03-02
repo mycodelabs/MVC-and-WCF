@@ -25,17 +25,17 @@ namespace tests.infrastructure
         {
             private static IFileProvider the_file_provider;
             private static FileStream stream;
-            private static MeetingsLibrary result;
+            private static Meetings result;
 
             private Establish c = () =>
                                       {
-                                          result = new MeetingsLibrary();
+                                          result = new Meetings();
                                           the_file_provider = depends.on<IFileProvider>();
                                           stream = new FileStream(xml_file, FileMode.Open, FileAccess.Read); 
                                           the_file_provider.setup(x => x.GetStreamFromXml(xml_file)).Return(stream);
                                       };
 
-            private Because b = () => result = sut.CreateDocument<MeetingsLibrary>();
+            private Because b = () => result = sut.CreateDocument<Meetings>();
             private It should_return_object = () => result.ShouldNotBeNull();
         }
     }

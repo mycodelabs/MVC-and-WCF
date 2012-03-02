@@ -62,6 +62,7 @@
     <Compile Include="infrastructure\xml_gateway_specs.cs" />
     <Compile Include="infrastructure\xml_provider_factory_specs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="services\meetings_service_specs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -76,6 +77,21 @@
       <Project>{4E86277F-68E3-41C8-9643-8F6802CF178C}</Project>
       <Name>domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\services\services.csproj">
+      <Project>{94D1E113-21DE-438F-92B3-78186B623FA7}</Project>
+      <Name>services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\solution\common\common.csproj">
+      <Project>{6B78C557-DDF5-44AF-88EB-3AECB20A77FE}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\solution\contracts\contracts.csproj">
+      <Project>{FD1E7232-965C-40FF-B909-EFC0AE9017BD}</Project>
+      <Name>contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="services\mappers\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -5,8 +5,16 @@ using System.Text;
 
 namespace domain 
 {
-    public class MeetingsLibrary
+     [Serializable]
+     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public class Meetings
     {
-        public List<Meeting> Meetings { get; set; }
+         public Meetings()
+         {
+             this.MeetingsLibrary = new List<Meeting>();
+         }
+
+        [System.Xml.Serialization.XmlElementAttribute("Meeting", Form = System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public List<Meeting> MeetingsLibrary { get; set; }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
+using contracts;
 using developwithpassion.specifications.extensions;
 using developwithpassion.specifications.rhinomocks;
 using domain;
@@ -13,7 +14,7 @@ namespace tests.infrastructure
     [Subject("Meeting Repository Specs")]
     public class meeting_repository_specs 
     {
-        public abstract class meeting_repository_concern : Observes<IRepository<Meeting>, MeetingRepository>
+        public abstract class meeting_repository_concern : Observes<IMeetingRepository, MeetingRepository>
         {
         }
 
@@ -21,13 +22,13 @@ namespace tests.infrastructure
         {
             private static IXmlGateway the_gateway;
             private static IEnumerable<Meeting> results;
-            private static MeetingsLibrary meetingsLibrary;
+            private static Meetings _meetings;
             private Establish c = () =>
                                       {
                                           results = new List<Meeting>();
-                                          meetingsLibrary = new MeetingsLibrary();
+                                          _meetings = new Meetings();
                                           the_gateway = depends.on<IXmlGateway>();
-                                          the_gateway.setup(x => x.SerializeDocument()).Return(meetingsLibrary);
+                                          the_gateway.setup(x => x.SerializeDocument()).Return(_meetings);
                                       };
 
             Because b = () => results = sut.GetAll();

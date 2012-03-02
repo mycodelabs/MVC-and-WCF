@@ -5,3 +5,10 @@ D:\Labs\MVC and WCF\infrastructure\bin\Debug\domain.pdb
 D:\Labs\MVC and WCF\infrastructure\obj\Debug\infrasrtucture.csprojResolveAssemblyReference.cache
 D:\Labs\MVC and WCF\infrastructure\obj\Debug\infrasrtucture.dll
 D:\Labs\MVC and WCF\infrastructure\obj\Debug\infrasrtucture.pdb
+D:\Labs\MVC and WCF\infrastructure\bin\Debug\common.dll
+D:\Labs\MVC and WCF\infrastructure\bin\Debug\common.pdb
+D:\Labs\MVC and WCF\infrastructure\bin\Debug\contracts.dll
+D:\Labs\MVC and WCF\infrastructure\bin\Debug\Ninject.dll
+D:\Labs\MVC and WCF\infrastructure\bin\Debug\contracts.pdb
+D:\Labs\MVC and WCF\infrastructure\bin\Debug\Ninject.pdb
+D:\Labs\MVC and WCF\infrastructure\bin\Debug\Ninject.xml
