@@ -25,8 +25,9 @@ namespace tests.infrastructure
             private static Meetings _meetings;
             private Establish c = () =>
                                       {
-                                          results = new List<Meeting>();
+                                          results = new List<Meeting>(){ new Meeting() };
                                           _meetings = new Meetings();
+                                          _meetings.MeetingsLibrary.Add(new Meeting());
                                           the_gateway = depends.on<IXmlGateway>();
                                           the_gateway.setup(x => x.SerializeDocument()).Return(_meetings);
                                       };
@@ -35,7 +36,7 @@ namespace tests.infrastructure
 
             It should_return_meetings = () => results.ShouldNotBeNull();
 
-            //private It should_contain_one_meeting = () => results.Count().ShouldEqual(1);
+            private It should_contain_one_meeting = () => results.Count().ShouldEqual(1);
         }
     }
 }

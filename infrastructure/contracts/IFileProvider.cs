@@ -4,6 +4,6 @@ namespace infrasrtucture.contracts
 {
     public interface IFileProvider
     {
-        FileStream GetStreamFromXml(string fileName);
+        Stream GetStreamFromXml();
     }
 }

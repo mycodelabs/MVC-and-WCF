@@ -1,13 +1,21 @@
-﻿using System.IO;
+﻿using System.Configuration;
+using System.IO;
 using infrasrtucture.contracts;
 
 namespace infrasrtucture
 {
     public class FileProvider : IFileProvider
     {
-        public FileStream GetStreamFromXml(string fileName)
+        static string xmlFileName;
+
+        static FileProvider()
         {
-            return new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.Read);
+            xmlFileName = ConfigurationManager.AppSettings["xmlFileName"];
+        }
+
+        public Stream GetStreamFromXml()
+        {
+            return new FileStream(xmlFileName, FileMode.Open, FileAccess.Read, FileShare.Read);
         }
     }
 }

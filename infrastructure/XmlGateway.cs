@@ -14,8 +14,8 @@ namespace infrasrtucture
 
         public Meetings SerializeDocument()
         {
-            var document = this.providerFactory.CreateDocument<Meetings>();
-            return document;
+            var meetings = this.providerFactory.CreateDocument<Meetings>();
+            return meetings;
         }
     }
 }
