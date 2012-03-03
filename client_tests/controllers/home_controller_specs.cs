@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
 using controllers.Home;
 using developwithpassion.specifications.extensions;
@@ -37,15 +36,7 @@ namespace client_tests.controllers
 
             private Because b = () => result = sut.Index();
 
-            private It should_return_a_view = () => result.ShouldBeOfType(typeof (ViewResult));
-
-            private It should_reurn_the_index_view =
-                () => ((ViewResult)result).ViewName.ShouldBeEmpty();
-
-            private It should_return_a_view_containing_pageviewmodel =
-                () => result.downcast_to<ViewResult>().Model.ShouldBeOfType(typeof (MeetingsPageViewModel));
+            private It should_return_a_view_with_meetings_pageviewmodel = () => result.ShouldBeAView().And().ShouldContainAViewModelOfType(typeof(MeetingsPageViewModel));
         }
     }
-
-    
 }
