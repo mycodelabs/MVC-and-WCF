@@ -12,3 +12,17 @@ D:\Labs\MVC and WCF\infrastructure\obj\Debug\infrasrtucture.pdb
 D:\Labs\MVC and WCF\infrastructure\bin\Debug\Ninject.dll
 D:\Labs\MVC and WCF\infrastructure\bin\Debug\Ninject.pdb
 D:\Labs\MVC and WCF\infrastructure\bin\Debug\Ninject.xml
+C:\MVC and WCF\MVC-and-WCF\infrastructure\bin\Debug\infrasrtucture.dll
+C:\MVC and WCF\MVC-and-WCF\infrastructure\bin\Debug\infrasrtucture.pdb
+C:\MVC and WCF\MVC-and-WCF\infrastructure\bin\Debug\common.dll
+C:\MVC and WCF\MVC-and-WCF\infrastructure\bin\Debug\contracts.dll
+C:\MVC and WCF\MVC-and-WCF\infrastructure\bin\Debug\domain.dll
+C:\MVC and WCF\MVC-and-WCF\infrastructure\bin\Debug\Ninject.dll
+C:\MVC and WCF\MVC-and-WCF\infrastructure\bin\Debug\common.pdb
+C:\MVC and WCF\MVC-and-WCF\infrastructure\bin\Debug\contracts.pdb
+C:\MVC and WCF\MVC-and-WCF\infrastructure\bin\Debug\domain.pdb
+C:\MVC and WCF\MVC-and-WCF\infrastructure\bin\Debug\Ninject.pdb
+C:\MVC and WCF\MVC-and-WCF\infrastructure\bin\Debug\Ninject.xml
+C:\MVC and WCF\MVC-and-WCF\infrastructure\obj\Debug\ResolveAssemblyReference.cache
+C:\MVC and WCF\MVC-and-WCF\infrastructure\obj\Debug\infrasrtucture.dll
+C:\MVC and WCF\MVC-and-WCF\infrastructure\obj\Debug\infrasrtucture.pdb

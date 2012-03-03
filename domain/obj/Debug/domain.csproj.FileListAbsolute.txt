@@ -3,3 +3,8 @@ D:\Labs\MVC and WCF\domain\bin\Debug\domain.pdb
 D:\Labs\MVC and WCF\domain\obj\Debug\domain.csprojResolveAssemblyReference.cache
 D:\Labs\MVC and WCF\domain\obj\Debug\domain.dll
 D:\Labs\MVC and WCF\domain\obj\Debug\domain.pdb
+C:\MVC and WCF\MVC-and-WCF\domain\bin\Debug\domain.dll
+C:\MVC and WCF\MVC-and-WCF\domain\bin\Debug\domain.pdb
+C:\MVC and WCF\MVC-and-WCF\domain\obj\Debug\ResolveAssemblyReference.cache
+C:\MVC and WCF\MVC-and-WCF\domain\obj\Debug\domain.dll
+C:\MVC and WCF\MVC-and-WCF\domain\obj\Debug\domain.pdb
