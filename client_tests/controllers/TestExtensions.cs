@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Web.Mvc;
 using developwithpassion.specifications.extensions;
+using Machine.Specifications;
 
 namespace client_tests.controllers
 {
@@ -8,17 +9,18 @@ namespace client_tests.controllers
     {
         public static ViewResult ShouldBeAView(this ActionResult actionResult)
         {
+             actionResult.downcast_to<ViewResult>().ViewName.ShouldBeEmpty();
             return actionResult.downcast_to<ViewResult>();
         }
 
-        public static object And(this ViewResult viewResult)
+        public static ViewResult And(this ViewResult viewResult)
         {
-            return viewResult.Model;
+            return viewResult;
         }
 
-        public static bool ShouldContainAViewModelOfType(this object objType, Type targetType)
+        public static void ShouldContainAViewModelOfType<T>(this ViewResult viewResult)
         {
-            return ReferenceEquals(objType, targetType);
+            viewResult.Model.ShouldBeOfType<T>();
         }
     }
 }

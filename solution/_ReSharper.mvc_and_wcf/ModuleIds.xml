@@ -7,4 +7,5 @@
   <Module PersistentId="6B78C557-DDF5-44AF-88EB-3AECB20A77FE" ModuleId="common" />
   <Module PersistentId="EF5BC2C7-B47C-444B-8FCC-8D83EC39C0DD" ModuleId="client_tests" />
   <Module PersistentId="12D71FE3-B912-47BF-BDBA-2BE2028B607F" ModuleId="controllers" />
+  <Module PersistentId="D45867AA-541E-4D00-8EFD-7CF404E95498" ModuleId="clienttasks" />
 </Modules>
