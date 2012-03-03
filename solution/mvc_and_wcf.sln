@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "contracts", "..\contracts\c
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "controllers", "..\controllers\controllers.csproj", "{12D71FE3-B912-47BF-BDBA-2BE2028B607F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "..\Presentation\Presentation.csproj", "{00CCDFCD-DE98-4F34-9EC4-16A2D676357C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "presentation", "..\Presentation\presentation.csproj", "{00CCDFCD-DE98-4F34-9EC4-16A2D676357C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{0EC36F76-75F6-4072-ABC3-F2F76BB4CCDA}"
 EndProject
