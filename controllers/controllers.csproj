@@ -44,9 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="contracts\IMeetingTasks.cs" />
-    <Compile Include="Controllers\Home\HomeController.cs" />
-    <Compile Include="Controllers\Home\viewmodel\MeetingFormViewModel.cs" />
-    <Compile Include="Controllers\Home\viewmodel\MeetingsPageViewModel.cs" />
+    <Compile Include="controllers\Home\HomeController.cs" />
+    <Compile Include="controllers\Home\viewmodel\Event.cs" />
+    <Compile Include="controllers\Home\viewmodel\MeetingFormViewModel.cs" />
+    <Compile Include="controllers\Home\viewmodel\MeetingsPageViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

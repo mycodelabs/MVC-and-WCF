@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using contracts;
 using domain;
 using infrasrtucture.contracts;
@@ -21,6 +22,11 @@ namespace infrasrtucture
             {
                 yield return meeting;
             }
+        }
+
+        public Meeting GetById(string id)
+        {
+            return this.xmlGateway.GetMeetingById(id);
         }
     }
 }

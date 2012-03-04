@@ -1,5 +1,7 @@
-﻿using clienttasks.mappers.contracts;
+﻿using System;
+using clienttasks.mappers.contracts;
 using clienttasks.meetingsservice;
+using controllers.Controllers.Home.viewmodel;
 using Presentation.contracts;
 using controllers.Home;
 
@@ -18,8 +20,18 @@ namespace clienttasks
 
         public MeetingsPageViewModel GetAllMeetings()
         {
-            var meetings = this.meetingsService.GetAllMeetings();
-            return meetingsPageViewModelMapper.MapFrom(meetings);
+            return meetingsPageViewModelMapper.MapFrom(this.GetMeetings());
+        }
+
+        public MeetingsPageViewModel GetAllEventsInMeeting(MeetingFormViewModel theFormViewModel)
+        {
+            var events = this.meetingsService.GetAllEventsInMeeting(theFormViewModel.Meetings);
+            return meetingsPageViewModelMapper.MapFrom(this.GetMeetings(), events);
+        }
+
+        private MeetingData[] GetMeetings()
+        {
+            return this.meetingsService.GetAllMeetings();
         }
     }
 }

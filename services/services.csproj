@@ -74,11 +74,14 @@
   <ItemGroup>
     <Compile Include="ContainerInject.cs" />
     <Compile Include="datamodel\MeetingData.cs" />
+    <Compile Include="datamodel\MeetingEventsData.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="mappers\contracts\IMeetingDataContractMapper.cs" />
+    <Compile Include="mappers\contracts\IMeetingEventsDataMapper.cs" />
     <Compile Include="mappers\MeetingDataContractMapper.cs" />
+    <Compile Include="mappers\MeetingEventsDataMapper.cs" />
     <Compile Include="MeetingsService.svc.cs">
       <DependentUpon>MeetingsService.svc</DependentUpon>
     </Compile>

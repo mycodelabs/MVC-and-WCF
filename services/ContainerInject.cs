@@ -15,6 +15,7 @@ namespace services
             Kernel.Bind<IMeetingsService>().To<MeetingsService>();
             Kernel.Bind<IMeetingRepository>().To<MeetingRepository>();
             Kernel.Bind<IMeetingDataContractMapper>().To<MeetingDataContractMapper>();
+            Kernel.Bind<IMeetingEventsDataMapper>().To<MeetingEventsDataMapper>();
             Kernel.Bind<IXmlGateway>().To<XmlGateway>();
             Kernel.Bind<IFileProvider>().To<FileProvider>();
             Kernel.Bind<IProviderFactory>().To<XmlProviderFactory>();

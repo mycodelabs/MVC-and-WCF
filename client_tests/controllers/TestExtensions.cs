@@ -18,9 +18,10 @@ namespace client_tests.controllers
             return viewResult;
         }
 
-        public static void ShouldContainAViewModelOfType<T>(this ViewResult viewResult)
+        public static T ShouldContainAViewModelOfType<T>(this ViewResult viewResult)
         {
             viewResult.Model.ShouldBeOfType<T>();
+            return (T)viewResult.Model;
         }
     }
 }

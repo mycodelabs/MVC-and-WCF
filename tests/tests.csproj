@@ -65,6 +65,7 @@
     <Compile Include="infrastructure\xml_provider_factory_specs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="services\mappers\meeting_datacontract_mapper_specs.cs" />
+    <Compile Include="services\mappers\meeting_events_datacontract_mapper.cs" />
     <Compile Include="services\meetings_service_specs.cs" />
   </ItemGroup>
   <ItemGroup>

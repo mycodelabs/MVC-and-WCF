@@ -9,5 +9,8 @@ namespace services
     {
         [OperationContract]
         IEnumerable<MeetingData> GetAllMeetings();
+
+        [OperationContract]
+        IEnumerable<MeetingEventsData> GetAllEventsInMeeting(string theMeetingId);
     }
 }

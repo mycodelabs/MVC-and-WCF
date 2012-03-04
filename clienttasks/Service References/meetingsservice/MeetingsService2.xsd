@@ -13,4 +13,17 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="MeetingData" nillable="true" type="tns:MeetingData" />
+  <xs:complexType name="ArrayOfMeetingEventsData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MeetingEventsData" nillable="true" type="tns:MeetingEventsData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMeetingEventsData" nillable="true" type="tns:ArrayOfMeetingEventsData" />
+  <xs:complexType name="MeetingEventsData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EventName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartsAt" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MeetingEventsData" nillable="true" type="tns:MeetingEventsData" />
 </xs:schema>

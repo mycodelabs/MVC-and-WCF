@@ -22,7 +22,7 @@ namespace controllers.Home
         [HttpPost]
         public ActionResult Index(MeetingFormViewModel formViewModel)
         {
-             var pageViewModel = this.meetingTasks.GetAllMeetings();
+             var pageViewModel = this.meetingTasks.GetAllEventsInMeeting(formViewModel);
             return View(pageViewModel);
         }
     }

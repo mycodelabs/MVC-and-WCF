@@ -13,4 +13,18 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="GetAllEventsInMeeting">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="theMeetingId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllEventsInMeetingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/services.datamodel" minOccurs="0" name="GetAllEventsInMeetingResult" nillable="true" type="q2:ArrayOfMeetingEventsData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>

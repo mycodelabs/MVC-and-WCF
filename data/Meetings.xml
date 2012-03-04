@@ -22,12 +22,12 @@
 		<Events>
 			<Event>
 				<Id>1</Id>
-				<Name>Event on c#</Name>
-				<StartsAt>9:00</StartsAt>
+				<Name>Event on Ruby</Name>
+				<StartsAt>9:30</StartsAt>
 			</Event>
 			<Event>
 				<Id>2</Id>
-				<Name>Event on java</Name>
+				<Name>Event on Ruby and Rails</Name>
 				<StartsAt>12:00</StartsAt>
 			</Event>
 		</Events>

@@ -10,4 +10,9 @@
 {
     @Html.DropDownListFor(x => x.Meetings, Model.Meetings)
     <input type="submit"  name="submit" value="Get Events" />
+    @Html.Grid(Model.Events).Columns(column => 
+                                    { 
+                                        column.For(x => x.EventName);
+                                        column.For(x => x.StartsAt);
+                                    })
 } 

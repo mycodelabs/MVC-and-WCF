@@ -63,6 +63,9 @@
     <None Include="Service References\meetingsservice\clienttasks.meetingsservice.MeetingData1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\meetingsservice\clienttasks.meetingsservice.MeetingEventsData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\meetingsservice\MeetingsService.wsdl" />
     <None Include="Service References\meetingsservice\MeetingsService.xsd">
       <SubType>Designer</SubType>

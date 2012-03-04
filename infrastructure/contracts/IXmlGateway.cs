@@ -9,5 +9,6 @@ namespace infrasrtucture.contracts
     public interface IXmlGateway
     {
         Meetings SerializeDocument();
+        Meeting GetMeetingById(string id);
     }
 }

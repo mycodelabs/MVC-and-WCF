@@ -8,7 +8,10 @@ namespace controllers.Home
         public MeetingsPageViewModel()
         {
             Meetings = new List<SelectListItem>();
+            Events = new List<Event>();
         }
         public IList<SelectListItem> Meetings { get; set; }
+
+        public IList<Event> Events { get; set; }
     }
 }

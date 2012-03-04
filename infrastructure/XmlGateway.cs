@@ -1,4 +1,7 @@
-﻿using domain;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using domain;
 using infrasrtucture.contracts;
 
 namespace infrasrtucture
@@ -14,8 +17,18 @@ namespace infrasrtucture
 
         public Meetings SerializeDocument()
         {
-            var meetings = this.providerFactory.CreateDocument<Meetings>();
-            return meetings;
+            return GetMeetings();
+        }
+
+        public Meeting GetMeetingById(string meetingId)
+        {
+            var meetings = GetMeetings();
+            return meetings.MeetingsLibrary.Where(x => x.Id == meetingId).FirstOrDefault();
+        }
+
+        private Meetings GetMeetings()
+        {
+            return this.providerFactory.CreateDocument<Meetings>();
         }
     }
 }
